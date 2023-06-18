@@ -1,10 +1,11 @@
-#include<stdio.h>
-#include<unistd.h>
+#include <stdio.h>
+#include <unistd.h>
 
 /**
- * main-  Entry point
- * return: 1 (success)
- */
+* main - Entry point
+*
+* Return: Always 1 (Success)
+*/
 int main(void)
 {
 	write(2,
